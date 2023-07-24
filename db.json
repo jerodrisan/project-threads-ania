@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9",
+      "username": "Code with Ania Kubow",
+      "handle": "aniakubow",
+      "bio": " I make youtube videos bla bla bla bla bla bla bla bla bla bla with lorem ipsum dolor sit amet",
+      "link": "https://www.linktr.ee/aniakubow",
+      "img": "https://i.imgur.com/YsN2Ta8.jpg",
+      "instagram_url": "https://instagram.com/aniakubow/",
+      "followers": [
+        {
+          "user_uuid": "171e9020-56eb-4019-9471-c68c99325caa"
+        },
+        {
+          "user_uuid": "1bd60d5d-7333-4e61-8310-6d9fc42517b1"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "171e9020-56eb-4019-9471-c68c99325caa",
+      "username": "Bobbyes burguer",
+      "handle": "bobbyburgues",
+      "bio": " i make great burguers bla bla bla bla bla bla bla bla bla bla with lorem ipsum dolor sit amet",
+      "link": "https://www.bobbyburguers.com",
+      "img": "https://i.imgur.com/NW1DOOH.jpg",
+      "instagram_url": "https://instagram.com/bobbyburguers/",
+      "followers": [
+        {
+          "user_uuid": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "84ec6ba1-09e4-4ec4-bbd8-2f2d027c3787",
+      "username": "Pizzas carlos",
+      "handle": "pizzascarlos",
+      "bio": " i make great pizzas bla bla bla bla bla bla bla bla bla bla with lorem ipsum dolor sit amet",
+      "link": "https://www.pizzacarlos.com",
+      "img": "https://i.imgur.com/wBpaDOt.jpg",
+      "instagram_url": "https://instagram.com/pizzacarlos/",
+      "followers": [
+        {
+          "user_uuid": "171e9020-56eb-4019-9471-c68c99325caa"
+        },
+        {
+          "user_uuid": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Thu Jul 13 2023 01:38:33 GMT+0200 (hora de verano de Europa central)",
+      "thread_from": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hellow world from thread yeah baby",
+      "likes": [
+        {
+          "user_uuid": "84ec6ba1-09e4-4ec4-bbd8-2f2d027c3787"
+        },
+        {
+          "user_uuid": "171e9020-56eb-4019-9471-c68c99325caa"
+        },
+        {
+          "user_uuid": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Thu Jul 13 2023 04:40:33 GMT+0200 (hora de verano de Europa central)",
+      "thread_from": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Another awesome thread",
+      "likes": [
+        {
+          "user_uuid": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Thu Jul 14 2023 20:35:33 GMT+0200 (hora de verano de Europa central)",
+      "thread_from": "171e9020-56eb-4019-9471-c68c99325caa",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Excited yeah",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "Thu Jul 15 2023 21:55:33 GMT+0200 (hora de verano de Europa central)",
+      "thread_from": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9",
+      "thread_to": "171e9020-56eb-4019-9471-c68c99325caa",
+      "reply_to": 3,
+      "text": "Congrats",
+      "likes": []
+    }, 
+    {
+      "id": 4,
+      "timestamp": "Thu Jul 15 2023 23:59:33 GMT+0200 (hora de verano de Europa central)",
+      "thread_from": "171e9020-56eb-4019-9471-c68c99325caa",
+      "thread_to": "1d2f1a20-4f8f-4fc8-a2af-196371e3a0b9",
+      "reply_to": 0,
+      "text": "Hiya!!",
+      "likes": []
+    }
+  ]
+}
